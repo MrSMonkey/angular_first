@@ -12,7 +12,7 @@ import { TestComponent } from './test/test.component';
 
 export const ROUTES: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'user'},
-  { path: 'user', component: SlUserComponent},
+  { path: 'user', component: SlUserComponent },
   { path: 'members', component: MembersComponent}
 ];
 
